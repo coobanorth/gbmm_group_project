@@ -1,0 +1,20 @@
+.menu{
+    background-color :#DDFCAD;
+    height :10%;
+    padding-top:10px;
+    color:black;    
+}
+
+.b{
+    color:black;
+}
+
+.navbar{
+    
+    display: inline;
+    background-color: red;
+    font-size: 20px;
+    color: black;
+    padding:4px;
+    text-decoration:none;
+}
