@@ -1,3 +1,3 @@
 hello
 
-Ethan is a pedo
+Ethan is a genuis
