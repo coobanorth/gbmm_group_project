@@ -1,20 +1,26 @@
 .menu{
-    background-color :#DDFCAD;
+    background-color :#C8E087;
     height :10%;
-    padding-top:10px;
+    padding-top:2px;
     color:black;    
 }
 
-.b{
-    color:black;
+.menutxt{
+    color:white;
+    font-style: none;
 }
 
 .navbar{
     
     display: inline;
-    background-color: red;
+    background-color: #95A472;
     font-size: 20px;
     color: black;
     padding:4px;
     text-decoration:none;
+}
+
+body{
+    font-family: Verdana, sans-serif;
+    background-color: #DDFCAD;
 }
