@@ -54,6 +54,7 @@ body{
 
     max-width:1000px;
     margin:auto;
+
 }
 
 
@@ -73,15 +74,23 @@ body{
     background-color: #e8e8e8;
     height: 95%;
     padding-top: 10px;
+    grid-template-columns: 50% 50%;
+    display: grid;
+
 }
 
 /*divider for text*/
 .textdiv{
     padding: 10px;
     background-color: whitesmoke;
-    width:50%;
+
     margin-top: 10px;
     margin-left: 10px;
     text-align: justify;
+
+}
+
+.imagedisplay{
+    margin-top: 10px;
 
 }
