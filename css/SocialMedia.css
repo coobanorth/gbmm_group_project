@@ -1,0 +1,68 @@
+/*responsive layout*/
+nav {grid-area: navbar;}
+main {grid-area: main;}
+aside {grid-area: links;}
+.questions {grid-area: questions;}
+footer {grid-area: footer;}
+
+#wrapper {
+    display: grid;
+    grid-gap: 0;
+    grid-template-areas:
+        "navbar"
+        "main"
+        "questions"
+        "footer"
+}
+
+@media (max-width: 50em) {
+    #wrapper {
+        grid-template: auto auto;
+        grid-template-areas:
+            "navbar navbar"
+            "links main"
+            "links questions"
+            "footer footer"
+
+    }
+}
+
+@media (min-width: 50em) {
+    #wrapper {
+        grid-template-columns: auto auto auto;
+        grid-template-areas:
+            "navbar navbar navbar"
+            "links main questions"
+            "links main questions"
+            "footer footer footer"
+    }
+}
+
+/*navbar*/
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.content {
+    padding: 16px
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
