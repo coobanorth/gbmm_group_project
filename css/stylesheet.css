@@ -1,22 +1,42 @@
 /*Wrapper And Layouts*/
+
+/*Grid Names*/
+.banner {grid-area: banner;}
+.menu {grid-area: menu;}
+.alt_nav {grid-area: altnav;}
+main {grid-area: main;}
+aside {grid-area: aside;}
+footer {grid-area: footer;}
+
+
+
 #wrapper {
     max-width:110em;
     margin: 0 auto;
+    background-color: #646165;
 
     display: grid;
     grid-template-areas:
+        "banner"
         "menu"
+        "altnav"
         "main"
+        "aside"
+        "footer"
         ;
 }
 
 /*Tablet Portrait*/
 @media (min-width: 50em) {
     #wrapper {
-        grid-template-columns: 3fr 6fr;
+        grid-template-columns: 6fr 3fr;
         grid-template-areas: 
+        "banner banner"
         "menu menu"
-        "main main";
+        "main altnav"
+        "main aside"
+        "footer footer"
+        ;
     }
 }
 
@@ -25,8 +45,12 @@
     #wrapper {
         grid-template-columns: 2fr 5fr 2fr;
         grid-template-areas: 
+        "banner banner banner"
         "menu menu menu"
-        "main main main";
+        "main main altnav"
+        "main main aside"
+        "footer footer footer"
+        ;
         }
 }
 
@@ -42,7 +66,7 @@
 .menu ul{
     list-style-type: none;
     overflow: hidden;
-    background-color: #ffbfa0;
+    background-color: #80f170;
     position: sticky;
     padding-inline-start: 0em;
 }
@@ -64,43 +88,41 @@
 
 body{
     font-family: Verdana, sans-serif;
-    background-color: #646165;
+    background-color: #ffffff;
 }
 
-
-/*fuck knows, get back to me on this one -- probs gonna remove*/
-.fpagecol{
-    background-color: #95A472;
-    height: 3000px;
-    width: 1000px;
-    margin-top: 10px;
-    padding: 9px;
-    align-self: center;
+/*Heading CSS*/
+h1{
+    color: white;
+    padding-left: 10px;
 }
 
-/*box for text innit*/
+/*articles and their content*/
+
+/*article with class named textbox*/
 .textbox{
     text-align: 5px;
     background-color: #e8e8e8;
-    height: 95%;
-    padding-top: 10px;
+    height: auto;
+    padding: 10px;
     grid-template-columns: 50% 50%;
     display: grid;
-
+    margin: 10px;
 }
 
-/*divider for text*/
+/*divider for text in the article*/
 .textdiv{
     padding: 10px;
     background-color: whitesmoke;
-
-    margin-top: 10px;
-    margin-left: 10px;
-    text-align: justify;
-
+    text-align: inline;
 }
 
+/*divider for image in the article*/
 .imagedisplay{
-    margin-top: 10px;
+    padding:0px 0px 10px 10px;
+}
 
+/*image on the right fam*/
+.image_right{
+    width:100%
 }
