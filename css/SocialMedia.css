@@ -41,13 +41,15 @@ footer {grid-area: footer;}
 /*navbar*/
 #navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #d1d1c9;
+    max-height: 50px;
+    font-size: 20px;
 }
 
 #navbar a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #171813;
     text-align: center;
     padding: 14px;
     text-decoration: none;
@@ -66,3 +68,16 @@ footer {grid-area: footer;}
 .sticky + .content {
     padding-top: 60px;
 }
+
+/*general styling to move to a normalize sheet later*/
+
+html {
+    margin: 0px;
+    background-color: #171813;
+}
+
+body {
+    margin: 0px;
+    color: #d1d1c9;
+}
+

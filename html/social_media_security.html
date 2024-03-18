@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <link href="../css/SocialMedia.css" rel="stylesheet" type="text/css">
+        <meta charset="utf-8">
+        <title>Social Media Security</title>
+    </head>
+
+    <body>
+
+        <div id="wrapper">
+
+            <nav>
+                <div id="navbar">
+                    <a id="top"></a>
+                    <table>
+                        <tr>
+                            <th><img src="../images/Cropped_gbmmlogo.jpg" style="max-height:50px"></th>
+                            <th><a href="glossary.html">Glossary</a></th>
+                            <th><a href="computer_security.html">Computer Security</a></th>
+                            <th><a href="information_security.html">Information Security</a></th>
+                            <th><a href="network_security.html">Network Security</a></th>
+                            <th><a href="quiz.html">Quiz</a></th>
+                        </tr>
+                    </table>
+                </div>
+            </nav>
+
+            <main>
+                <p>MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN </p>
+            </main>
+
+            <aside>
+                <p>LINKS LINKS LINKS LINKS LINKS LINKS LINKS LINKS LINKS LINKS </p>
+            </aside>
+
+            <div id="questions">
+                <form>
+                    <input type="radio" id="A1" name="Q1" value="15M">
+                    <label for="A1">[A] 15Million</label><br>
+                    <input type="radio" id="A2" name="Q1" value="25M">
+                    <label for="A2">[B] 25Million</label><br>
+                    <input type="radio" id="A3" name="Q1" value="30M">
+                    <label for="A3">[C] 30Million</label><br>
+                </form>
+            </div>
+
+            <footer>
+                <p>Social media security footer</p>
+            </footer>
+
+            <script>
+                window.onscroll = function() {myFunction()};
+                
+                var navbar = document.getElementById("navbar");
+                var sticky = navbar.offsetTop;
+                
+                function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+                }
+                </script>
+
+        </div>
+
+    </body>
+</HTML>
