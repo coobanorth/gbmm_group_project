@@ -91,14 +91,64 @@ body{
     background-color: #ffffff;
 }
 
-/*Heading CSS*/
+/*Heading and Paragraph CSS*/
 h1{
     color: white;
     padding-left: 10px;
 }
 
-/*articles and their content*/
+h2{
+    color: white;
+    padding-left: 10px;
+}
 
+p{
+    color: white;
+    padding-left: 10px;
+}
+
+/*HREF Links*/
+.link{
+    color: white;
+}
+
+/* unvisited link */
+a:link {
+}
+
+/* visited link */
+a:visited {
+}
+
+/* mouse over link */
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+/*Lists*/
+ul{
+    color: white;
+}
+
+ol{
+    color: white;
+}
+
+/*Images*/
+img{
+    padding: 10px;
+    size: auto;
+}
+
+/*articles and their content*/
+.network_security{
+    margin-top: 20px;
+    border-style: solid;;
+    border-color: white;
+    border-radius: 10px;
+    border-width: 3px;
+}
 /*article with class named textbox*/
 .textbox{
     text-align: 5px;
