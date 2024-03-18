@@ -7,22 +7,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="../css/stylesheet.css" rel="stylesheet">
   <link href="../css/normalize.css" rel="stylesheet">
+  <script src="../javaScript/javaScript.js"></script>
 </head>
 
 <body>
   <div id="wrapper">
   
-    <nav class = "menu">
-      <ul>
-        <li><a href=index.html>HOME</a></li>
-        <li><a href=information_security.html>INFORMATION SECURITY</a></li>
-        <li><a href=computer_security.html>COMPUTER SECURITY</a></li>
-        <li><a href=network_security.html>NETWORK SECURITY</a></li>
-        <li><a href=social_media_security.html>SOCIAL MEDIA SECURITY</a></li>
-        <li><a href=quiz.html>QUIZ</a></li>
-        <li><a href=glossary.html>GLOSSARY</a></li>
-      </ul>
-    </nav>
+    <div class="topnav" id="myTopnav">
+      <a href=index.html>HOME</a></li>
+      <a href=information_security.html>INFORMATION SECURITY</a>
+      <a href=computer_security.html>COMPUTER SECURITY</a>
+      <a href=network_security.html>NETWORK SECURITY</a>
+      <a href=social_media_security.html>SOCIAL MEDIA SECURITY</a>
+      <a href=quiz.html>QUIZ</a>
+      <a href=glossary.html>GLOSSARY</a>
+      <div class="dropdown">
+        <button class="dropbtn">Dropdown
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">&#9776;</a>
+    </div>
   
     <header class="banner">
       <h1>BANNER</h1>
