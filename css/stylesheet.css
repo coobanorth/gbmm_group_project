@@ -149,6 +149,22 @@ img{
     border-radius: 10px;
     border-width: 3px;
 }
+
+/*FOOTER*/
+
+
+/*ASIDE*/
+
+
+
+footer{
+    background-color: #3b3a3b;
+    margin-top: 50px;
+}
+
+
+
+
 /*article with class named textbox*/
 .textbox{
     text-align: 5px;
