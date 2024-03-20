@@ -229,3 +229,21 @@ h1{
     text-align: left;
   }
 }
+/*css for quiz section*/
+.textQuestions input{
+  height:3em;
+  margin:1em;
+  width:70%;
+  border-radius: 12px;
+}
+.textQuestions p{
+  margin-left: 1em;;
+}
+.multipleChoice{
+  border: #e8e8e8 solid ;
+  margin: 1em;
+}
+.multipleChoice label{
+  font-size: 2em;
+  margin: 1em;
+}
