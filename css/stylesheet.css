@@ -151,19 +151,12 @@ img{
 }
 
 /*FOOTER*/
-
-
-/*ASIDE*/
-
-
-
 footer{
-    background-color: #3b3a3b;
-    margin-top: 50px;
+  background-color: #3b3a3b;
+  margin-top: 50px;
 }
 
-
-
+/*ASIDE*/
 
 /*article with class named textbox*/
 .textbox{
@@ -192,6 +185,7 @@ footer{
 .image_right{
     width:100%
 }
+
 /*Drop down nav - responsive -- james*/
 
 .topnav {
