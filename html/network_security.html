@@ -12,16 +12,22 @@
 <body>
   <div id="wrapper">
   
-    <nav class = "menu">
-      <ul>
-        <li><a href=index.html>HOME</a></li>
-        <li><a href=information_security.html>INFORMATION SECURITY</a></li>
-        <li><a href=computer_security.html>COMPUTER SECURITY</a></li>
-        <li><a href=network_security.html>NETWORK SECURITY</a></li>
-        <li><a href=social_media_security.html>SOCIAL MEDIA SECURITY</a></li>
-        <li><a href=quiz.html>QUIZ</a></li>
-        <li><a href=glossary.html>GLOSSARY</a></li>
-      </ul>
+    <nav class="topnav" id="myTopnav">
+      <a href=index.html>Home</a></li>
+      <a href=information_security.html>Information Security</a>
+      <a href=computer_security.html>Computer Security</a>
+      <a href=network_security.html>Network Security</a>
+      <a href=social_media_security.html>Social Media Security</a>
+      <a href=quiz.html>Quiz</a>
+      <div class="dropdown">
+        <button class="dropbtn">Information
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="glossary.html">Glossary</a>
+        </div>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">&#9776;</a>
     </nav>
   
     <header class="banner">

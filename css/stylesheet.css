@@ -1,12 +1,29 @@
 /*Wrapper And Layouts*/
 
 /*Grid Names*/
-.banner {grid-area: banner;}
-.topnav {grid-area: menu;}
-.alt_nav {grid-area: altnav;}
-main {grid-area: main;}
-aside {grid-area: aside;}
-footer {grid-area: footer;}
+.banner {
+  grid-area: banner;
+}
+
+.topnav {
+  grid-area: menu;
+}
+
+.alt_nav {
+  grid-area: altnav;
+}
+
+main {
+  grid-area: main;
+}
+
+aside {
+  grid-area: aside;
+}
+
+footer {
+  grid-area: footer;
+}
 
 
 
@@ -19,8 +36,8 @@ footer {grid-area: footer;}
     grid-template-areas:
         "banner"
         "menu"
-        "altnav"
         "main"
+        "altnav"
         "aside"
         "footer"
         ;
@@ -138,7 +155,7 @@ ol{
 /*Images*/
 img{
     padding: 10px;
-    size: auto;
+    max-width: 95%;
 }
 
 /*articles and their content*/
@@ -213,7 +230,8 @@ footer{
 }
 
 .dropdown {
-  float: left;
+  float: right;
+  color: white;
   overflow: hidden;
 }
 
@@ -226,11 +244,13 @@ footer{
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  width: 160px;
+  text-align: right;
 }
 
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: fixed;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -289,6 +309,7 @@ footer{
     text-align: left;
   }
 }
+
 /*css for quiz section*/
 .textQuestions input{
   height:3em;
