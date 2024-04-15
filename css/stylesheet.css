@@ -329,9 +329,16 @@ footer{
   margin: 1em;
 }
 
-/*Use for social media page*/
 bold {
   font-weight: bold;
   text-decoration: underline;
   color: #000000;
+}
+
+table {
+  text-align: left;
+}
+
+img#social {
+  max-width: 100px
 }
