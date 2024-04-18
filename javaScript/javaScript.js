@@ -18,7 +18,7 @@ function myFunc(elem, index) {
   x="in"+index;
   console.log(x)
   var element = document.getElementById(x);
-  let answerBank =["test","test2"];// this is the answer bank enter all the question answers in here
+  let answerBank =["30","20","85",];// this is the answer bank enter all the question answers in here
   input = (elem.value);
   if(input == answerBank[index]){
     element.style.backgroundColor = "green";
