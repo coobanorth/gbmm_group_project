@@ -26,7 +26,6 @@
         </button>
         <div class="dropdown-content">
           <a href="glossary.html">Glossary</a>
-          <a href="references.html">References</a>
         </div>
       </div>
       <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">&#9776;</a>
@@ -38,6 +37,31 @@
   
     <nav class = "alt_nav">
       <h1>Mini Quiz</h1>
+      <div class="quiz">
+        <form id ="questions">
+        <div class="quiz">
+            <div class="textQuestions">
+            <p>True or false, firewalls are a type of network security prevention method.</p>
+            <input id="in3" type="text" onkeyup="myFunc(this, 3)"></input>
+            </div>
+
+            <div class="textQuestions">
+            <p>What is the maximum fine for organisations not implementing effective cybersecurity measures</p>
+            <input id="in4" type="text" onkeyup="myFunc(this, 4)"></input>
+            </div>
+
+            <div class="multipleChoice" id="multipleChoice0">
+              <p>What is network security?</p>
+              <input type="radio" id ="test1" name="multiple0" value ="test1" onclick="multiChoice(this,0)">
+              <label for="test1" >aaa</label><br>
+              <input type="radio" id ="test2" name="multiple0" value ="test2" onclick="multiChoice(this,0)">
+              <label for="test1" >bbb</label><br>
+              <input type="radio" id ="test3" name="multiple0" value ="test3" onclick="multiChoice(this,0)">
+              <label for="test1" >Any activity designed to protect the usability and integrity of your network and data.</label><br>
+
+            </div>
+        </div>
+    </div>
     </nav>
       
     <main>
