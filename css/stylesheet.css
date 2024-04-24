@@ -119,19 +119,31 @@ h2{
     padding-left: 10px;
 }
 
+h3{
+  color: #000;
+  padding-left: 10px;;
+}
+
+h4{
+  color:#ffffff;
+  padding-left: 10px;
+  size: 12px;
+}
+
 p{
     color: white;
     padding-left: 10px;
 }
 
-/*HREF Links*/
-.link{
-    color: white;
-}
-
 /* unvisited link */
 a:link {
   color: white;
+  
+}
+
+.link_in_ref{
+  color: white;
+  padding-left: 10px;
 }
 
 /* visited link */
@@ -163,6 +175,7 @@ img{
 /*articles and their content*/
 .network_security{
     margin-top: 20px;
+    margin-left: 10px;
     border-style: solid;;
     border-color: white;
     border-radius: 10px;
@@ -323,6 +336,8 @@ footer{
 .textQuestions{
   border: white solid ;
   margin: 1em;
+  padding-right: 1em;
+
 }
 
 .multipleChoice{
@@ -332,11 +347,15 @@ footer{
 
 .multipleChoice label{
   color: white;
+  display: block;
+  padding-left: 30px;
+  padding-right: 1em;
 }
 
 .multipleChoice input{
   margin-left: 1em;
   margin-bottom: 0.5em;
+
 }
 
 /*social media*/
@@ -360,4 +379,19 @@ img#social {
 img#example {
   max-width: 500px;
   max-height: 300px;
+}
+
+/*Definition Lists*/
+dl{
+  margin-left: 10px;
+}
+dt{
+  color: white;
+  padding-top: 20px;
+  font-weight: bold;
+}
+dd{
+  color: white;
+  padding-top: 5px;
+
 }
