@@ -42,5 +42,3 @@ function multiChoice(elem, index){
   }
 
 }
-
-
