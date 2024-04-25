@@ -59,6 +59,29 @@
     </nav>
 
     <main>
+        
+        <img id="bannerImage1" src="">
+        <button onclick="toggleImage()">EXAMPLE</button>
+    
+        <script>
+            let originalImage = ""; // Store the original image source
+            let newImage = "../images/social_media/EmailMsgVerify.png"; // New image source
+            let isOriginal = true; // Flag to track current image state
+    
+            // Function to toggle between original and new image
+            function toggleImage() {
+                let img = document.querySelector("#bannerImage1");
+    
+                if (isOriginal) {
+                    originalImage = img.getAttribute("src"); // Store the original image
+                    img.setAttribute("src", newImage); // Set the new image
+                    isOriginal = false;
+                } else {
+                    img.setAttribute("src", originalImage); // Set the original image
+                    isOriginal = true;
+                }
+            }
+        </script>
 
         <h2>Introduction To Social Media Security</h2>
         <p>Everyday thousands of people have their social media security compromised, this isn’t exclu-sive to any one group. Accounts from 10 to 10 million followers can be compromised at any time if never protected. 
