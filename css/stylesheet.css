@@ -121,6 +121,8 @@ h2{
 
 h3{
   color: #000;
+  font-weight: bold;
+  text-decoration: underline;
   padding-left: 10px;;
 }
 
@@ -143,7 +145,7 @@ a:link {
 
 .link_in_ref{
   color: white;
-  padding-left: 10px;
+  margin-left: 10px;
 }
 
 /* visited link */
@@ -176,10 +178,10 @@ img{
 .network_security{
     margin-top: 20px;
     margin-left: 10px;
-    border-style: solid;;
-    border-color: white;
-    border-radius: 10px;
-    border-width: 3px;
+}
+
+article{
+  margin-top: 2em;;
 }
 
 /*FOOTER*/
@@ -372,7 +374,7 @@ table, th {
   font-weight: 400;
 }
 
-img#social {
+.social {
   max-width: 100px
 }
 
