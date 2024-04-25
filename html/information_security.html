@@ -1,4 +1,4 @@
-<!DOCTYPE lang html>
+<!DOCTYPE html>
 <html lang = "en">
 
 <head>
@@ -14,7 +14,7 @@
   <div id="wrapper">
   
     <nav class="topnav" id="myTopnav">
-      <a href=index.html>Home</a></li>
+      <a href=index.html>Home</a>
       <a href=information_security.html>Information Security</a>
       <a href=computer_security.html>Computer Security</a>
       <a href=network_security.html>Network Security</a>
@@ -35,11 +35,39 @@
       <h1>Information Security</h1>
     </header>
   
-      
+    <nav class="alt_nav">
+      <h2>Mini Quiz</h2>
+      <div class="quiz">
+          <form id ="questions">
+            <div class="quiz">
+              <div class="textQuestions">
+              <p>q1</p>
+              <input id="in0" type="text" onkeyup="myFunc(this, 0)">
+              </div>
+
+              <div class="textQuestions">
+              <p>q2</p>
+              <input id="in1" type="text" onkeyup="myFunc(this, 1)">
+              </div>
+              
+              <div class="multipleChoice" id="multipleChoice0">
+                <p>q3</p>
+                <input type="radio" id ="test1" name="multiple0" value ="test1" onclick="multiChoice(this,0)">
+                <label for="test1" >a1</label><br>
+                <input type="radio" id ="test2" name="multiple0" value ="test2" onclick="multiChoice(this,0)">
+                <label for="test1" >a2</label><br>
+                <input type="radio" id ="test3" name="multiple0" value ="test3" onclick="multiChoice(this,0)">
+                <label for="test1" >a3</label><br>
+              </div>
+            </div>
+          </form>
+      </div>
+    </nav>
+
     <main>
   
       <article class="network_security">
-      <h1>Ways to keep you and your information safe on the internet</h1>
+      <h2>Ways to keep you and your information safe on the internet</h2>
 
       <p>Share what you do on the internet with your family, this is to ensure that the
       sites you access are safe and appropriate.</p>
