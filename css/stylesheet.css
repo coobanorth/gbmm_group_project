@@ -379,6 +379,19 @@ img#social {
 img#example {
   max-width: 500px;
   max-height: 300px;
+  transform: scale(0.1);
+  float: auto;
+}
+
+#example:hover {
+float: auto;
+transform: scale(1);
+}
+
+ul {
+  float: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 /*Definition Lists*/
