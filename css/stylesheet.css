@@ -372,11 +372,11 @@ table, th {
   font-weight: 400;
 }
 
-img#social {
+#social {
   max-width: 100px
 }
 
-img#example {
+#example {
   max-width: 500px;
   max-height: 300px;
   transform: scale(0.1);
