@@ -129,7 +129,7 @@ h3{
 h4{
   color:#ffffff;
   padding-left: 10px;
-  size: 12px;
+  font-size: 12px;
 }
 
 p{
@@ -194,7 +194,7 @@ footer{
 
 /*article with class named textbox*/
 .textbox{
-    text-align: 5px;
+
     background-color: #e8e8e8;
     height: auto;
     padding: 10px;
@@ -207,7 +207,7 @@ footer{
 .textdiv{
     padding: 10px;
     background-color: whitesmoke;
-    text-align: inline;
+
 }
 
 /*divider for image in the article*/
@@ -382,16 +382,13 @@ img#example {
   max-width: 500px;
   max-height: 300px;
   transform: scale(0.1);
-  float: auto;
 }
 
 #example:hover {
-float: auto;
 transform: scale(1);
 }
 
 ul {
-  float: auto;
   margin-top: auto;
   margin-bottom: auto;
 }
