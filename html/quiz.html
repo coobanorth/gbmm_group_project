@@ -43,42 +43,72 @@
       <div class="quiz">
         <div class="textQuestions">
           <p>True or false, firewalls are a type of network security prevention method.</p>
-          <input id="in3" type="text" onkeyup="myFunc(this, 3)">
+          <input value=" " id="in3" type="text" onkeyup="">
         </div>
 
         <div class="textQuestions">
           <p>What percentage of Instagram accounts have been compromised?</p>
-          <input id="in2" type="text" onkeyup="myFunc(this, 2)">
+          <input  value=" " id="in2" type="text" onkeyup="">
         </div>
 
-        <div class="multipleChoice" id="multipleChoice0">
-          <p>What is network security?</p>
-          <input type="radio" id ="test1" name="multiple0" value ="test1" onclick="multiChoice(this,0)">
-          <label for="test1" >A waste of time.</label><br>
-          <input type="radio" id ="test2" name="multiple0" value ="test2" onclick="multiChoice(this,0)">
-          <label for="test1" >Not using websites that don't look trustworthy.</label><br>
-          <input type="radio" id ="test3" name="multiple0" value ="test3" onclick="multiChoice(this,0)">
-          <label for="test1" >Any activity designed to protect the usability and integrity of your network and data.</label><br>
+        <div class="multiChoiceHeader">
+          <p>test test test test test</p>
+          <div class="multipleChoice" id="multiChoiceL0">
+            <span>
+              <input type="radio" name="multiChoice0" value="false" checked="checked"> 
+              <label>test</label>
+            </span>
+            <span>
+              <input type="radio" name="multiChoice0" value="true">
+              <label>test</label>
+            </span>
+            <span>
+              <input type="radio" name="multiChoice0" value="false" >
+              <label>test</label>
+          </span>
+          </div>
+        </div>
+        <div class="multiChoiceHeader">
+          <p>test test test test test</p>
+          <div class="multipleChoice" id="multiChoiceL1">
+            <span>
+              <input type="radio" name="multiChoice1" value="false" checked="checked"> 
+              <label>test</label>
+            </span>
+            <span>
+              <input type="radio" name="multiChoice1" value="true">
+              <label>test</label>
+            </span>
+            <span>
+              <input type="radio" name="multiChoice1" value="false" >
+              <label>test</label>
+          </span>
+          </div>
         </div>
 
         <div class="textQuestions">
           <p>In 2018 how many million Facebook account were hacked in a single data breach?</p>
-          <input id="in0" type="text" onkeyup="myFunc(this, 0)">
+          <input value=" " id="in0" type="text" onkeyup="">
         </div>
 
         <div class="textQuestions">
           <p>Google reported what percentage of social media accounts will be compromised at some point?</p>
-          <input id="in1" type="text" onkeyup="myFunc(this, 1)">
+          <input value=" " id="in1" type="text" onkeyup="">
         </div>
 
         <div class="textQuestions">
           <p>What is the maximum fine for organisations not implementing effective cybersecurity measures</p>
-          <input id="in4" type="text" onkeyup="myFunc(this, 4)">
+          <input value=" " id="in4" type="text" onkeyup="">
         </div>
+
 
       </div>
       </form>
-    
+      <div class="quizButtonParent">
+        <button class="" onclick="newQuiz();">Submit</button> 
+        <h3 class="quizButtonChild" id="btn1">0 </h3>
+        <h3 class ="quizButtonChild" id="chnge">/ 10</h3>
+      </div>
     </main>
 
     <footer>

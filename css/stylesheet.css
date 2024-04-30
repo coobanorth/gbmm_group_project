@@ -341,25 +341,42 @@ footer{
   padding-right: 1em;
 
 }
+.multiChoiceHeader{
+  border: white solid ;
+  display: block;
+  clear: both;
+  margin:1em;
+
+}
 
 .multipleChoice{
   border: white solid ;
-  margin: 1em;
+  display: block;
+  padding: 0 0 5px 5px;
+  clear: both;
+  margin:1em;
+
 }
 
 .multipleChoice label{
   color: white;
-  display: block;
-  padding-left: 30px;
-  padding-right: 1em;
+  display:inherit;
+  margin:1em;
 }
 
 .multipleChoice input{
-  margin-left: 1em;
-  margin-bottom: 0.5em;
+  float: left;
+  width: 20px;
+  margin-left: -20px;
+  margin-top: 6px; 
+  padding: 0;
 
 }
-
+.multipleChoice span{
+display: block;
+padding-left: 20px;
+cursor: inherit;
+}
 /*social media*/
 
 bold {
@@ -409,4 +426,10 @@ dd{
   color: white;
   padding-top: 5px;
 
+}
+.quizButtonParent{
+  white-space: nowrap;
+}
+.quizButtonChild{
+  display:inline-block ;
 }
