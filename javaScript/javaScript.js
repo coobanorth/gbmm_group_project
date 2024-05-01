@@ -57,7 +57,7 @@ function newQuizMulti()
 // 3. replace the second value being passed and the 'in-' number to the function with the index of the answer
 
 function newQuiz(){
-  let answerBank =["30","20","85","true","17 million","true" ,"Confidentiality","brute force","phishing"];// this is the answer bank enter all the question answers in here
+  let answerBank =["30","20","85","true","17 million","true" ,"confidentiality","brute force","phishing"];// this is the answer bank enter all the question answers in here
   let overallScore = 0; 
   let idFind;
 
