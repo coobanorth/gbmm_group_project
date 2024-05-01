@@ -19,7 +19,7 @@ function responsiveNav() {
 // it should work any bugs lemme know
 function newQuizMulti()
 {
-  let multiChoiceNum = 3;
+  let multiChoiceNum = 4;
   let multi = document.getElementsByName('multiChoice0');
   let x = "";
   var multiVal;
@@ -57,7 +57,7 @@ function newQuizMulti()
 // 3. replace the second value being passed and the 'in-' number to the function with the index of the answer
 
 function newQuiz(){
-  let answerBank =["30","20","85","true","17 million","true" ,"Confidentiality"];// this is the answer bank enter all the question answers in here
+  let answerBank =["30","20","85","true","17 million","true" ,"confidentiality","brute force","phishing"];// this is the answer bank enter all the question answers in here
   let overallScore = 0; 
   let idFind;
 
