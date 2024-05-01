@@ -1,6 +1,6 @@
-let originalImage = ""; // Store the original image source
+let originalImage = "../images/Universal/PlaceHolder.png"; // Store the original image source
 let newImage = ""; // New image source
-let isOriginal = true; // Flag to track current image state
+let isOriginal = false; // Flag to track current image state
 
 const all_buttons = document.querySelectorAll('.btn');
 console.log(all_buttons) //ensuring all buttons being logged
@@ -22,12 +22,20 @@ all_buttons.forEach(bt =>{
 function toggleImage() {
     let img = document.querySelector(targetImage);
 
-    if (isOriginal) {
-        originalImage = img.getAttribute("src"); // Store the original image
+    if (isOriginal == true) {
+       // originalImage = img.getAttribute("src"); // Store the original image
         img.setAttribute("src", buttonClicked); // Set the new image
         isOriginal = false;
+        console.log("target image:",targetImage)
+        console.log("original image:",originalImage)
+        console.log("button clicked:",buttonClicked)
+        console.log("isOriginal:",isOriginal)
     } else {
         img.setAttribute("src", originalImage); // Set the original image
         isOriginal = true;
+        console.log("target image:",targetImage)
+        console.log("original image:",originalImage)
+        console.log("button clicked:",buttonClicked)
+        console.log("isOriginal:",isOriginal)
     }
 }

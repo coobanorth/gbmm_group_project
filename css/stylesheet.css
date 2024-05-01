@@ -143,6 +143,14 @@ p{
     padding-left: 10px;
 }
 
+.p_bald{
+  color: #000;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-left: 10px;;
+  font-size: 1.17em
+}
+
 /* unvisited link */
 a:link {
   color: white;
