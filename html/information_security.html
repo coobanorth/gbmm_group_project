@@ -36,32 +36,46 @@
       <h1>Information Security</h1>
     </header>
   
-    <nav class="alt_nav">
+    <nav class = "alt_nav">
       <h2>Mini Quiz</h2>
       <div class="quiz">
-          <form id ="questions">
-            <div class="quiz">
-              <div class="textQuestions">
-              <p>q1</p>
-              <input id="in0" type="text" onkeyup="myFunc(this, 0)">
-              </div>
+        <form id ="questions">
+          <div class="quiz">
+            <div class="textQuestions">
+            <p>True or false,  some browsers save important information like your bank detail and passwords.</p>
+            <input id="in3" type="text" >
+            </div>
 
-              <div class="textQuestions">
-              <p>q2</p>
-              <input id="in1" type="text" onkeyup="myFunc(this, 1)">
-              </div>
-              
-              <div class="multipleChoice" id="multipleChoice0">
-                <p>q3</p>
-                <input type="radio" id ="test1" name="multiple0" value ="test1" onclick="multiChoice(this,0)">
-                <label for="test1" >a1</label><br>
-                <input type="radio" id ="test2" name="multiple0" value ="test2" onclick="multiChoice(this,0)">
-                <label for="test1" >a2</label><br>
-                <input type="radio" id ="test3" name="multiple0" value ="test3" onclick="multiChoice(this,0)">
-                <label for="test1" >a3</label><br>
+            <div class="textQuestions">
+            <p>What is the maximum fine for organisations not implementing effective cybersecurity measures</p>
+            <input id="in4" type="text" >
+            </div>
+            <div class="multiChoiceHeader">
+              <p>What is information security?</p>
+              <div class="multipleChoice" id="multiChoiceL1">
+                <span>
+                  <input type="radio" name="multiChoice1" value="false" checked="checked"> 
+                  <label>.</label>
+                </span>
+                <span>
+                  <input type="radio" name="multiChoice1" value="true">
+                  <label>the act of keeping your own or other peoples data secure from unwanted use by others.</label>
+                </span>
+                <span>
+                  <input type="radio" name="multiChoice1" value="false" >
+                  <label>Any activity designed to protect the usability and integrity of your network and data.</label>
+              </span>
               </div>
             </div>
-          </form>
+
+            <div class="quizButtonParent">
+              <button type="button" class="buttonStyle"  onclick="newQuiz();">Submit</button> 
+              <h3 class ="quizButtonChild">/ 3</h3>
+              <h3 class="quizButtonChild" id="btn1">0 </h3>
+              
+            </div>
+          </div>
+        </form>
       </div>
     </nav>
 
@@ -94,10 +108,10 @@
 
       <h2>How Does This Apply To Social Media?</h2>
       <p>On social media sites you may also get set links by then “company” asking you
-      to verify your account or resign. Never use these links if you are unsure always
+      to verify your account or resign in. Never use these links if you are unsure always
       go directly to the site using the url or search bar and report the message. These
       links are part of a phishing scam which will take you to a fake version of the site,
-      this fake version is used so you enter your password and username/email, so the
+      this fake version is used so you enter your password and username/email, this gives the
       hacker has full access to your account.</p>
 
       <p>Set all social media to private, if you are using a public account, it means anyone

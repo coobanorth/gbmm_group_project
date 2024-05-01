@@ -33,8 +33,7 @@ function newQuizMulti()
     for(var i = 0; i < multi.length; i++){
         if(multi[i].checked)
         {
-          multiVal = multi[i].value;
-            console.log(multiVal)
+            multiVal = multi[i].value;
             if( multiVal == "true")
             {
               multiScore = multiScore + 1
@@ -63,6 +62,7 @@ function newQuiz(){
   let idFind;
 
   for (let i =0 ; i<answerBank.length; i++){
+    console.log(i);
     idFind = "#in"+i;
     answer  = document.querySelector(idFind);
     try
@@ -80,7 +80,8 @@ function newQuiz(){
     }
   }
     catch{
-      break;
+      console.log("null")
+      idFind++;
     }
 
 
