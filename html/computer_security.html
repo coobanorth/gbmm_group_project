@@ -41,26 +41,38 @@
       <h2>Mini Quiz</h2>
       <div class="quiz">
         <form id ="questions">
-          <div class="quiz">
-            <div class="textQuestions">
-            <p>q1</p>
-            <input id="in0" type="text" onkeyup="myFunc(this, 0)">
-            </div>
+          <div class="textQuestions">
+            <p>What is it called when a hacker uses a tool or manually trys to crack the password.</p>
+            <input id="in7" type="text" >
+          </div>
 
-            <div class="textQuestions">
-            <p>q2</p>
-            <input id="in1" type="text" onkeyup="myFunc(this, 1)">
+          <div class="multiChoiceHeader">
+            <p>Why is it important to use different passwords for different accounts?</p>
+            <div class="multipleChoice" id="multiChoiceL3">
+              <span>
+                <input type="radio" name="multiChoice3" value="false" checked="checked"> 
+                <label>It doesn't matter, all passwords are equally secure</label>
+              </span>
+              <span>
+                <input type="radio" name="multiChoice3" value="false">
+                <label> It's easier to remember.</label>
+              </span>
+              <span>
+                <input type="radio" name="multiChoice3" value="true" >
+                <label> It reduces the risk of all your accounts being compromised if one password is discovered.</label>
+              </span>
             </div>
+          </div>
+          <div class="textQuestions">
+            <p>What is it called when a hacker sends you a message with a compromised link</p>
+            <input id="in8" type="text" >
+          </div>
+
+          <div class="quizButtonParent">
+            <button type="button" class="buttonStyle"  onclick="newQuiz();">Submit</button> 
+            <h3 class ="quizButtonChild">/ 3</h3>
+            <h3 class="quizButtonChild2" id="btn1">0 </h3>
             
-            <div class="multipleChoice" id="multipleChoice0">
-              <p>q3</p>
-              <input type="radio" id ="test1" name="multiple0" value ="test1" onclick="multiChoice(this,0)">
-              <label for="test1" >a1</label><br>
-              <input type="radio" id ="test2" name="multiple0" value ="test2" onclick="multiChoice(this,0)">
-              <label for="test1" >a2</label><br>
-              <input type="radio" id ="test3" name="multiple0" value ="test3" onclick="multiChoice(this,0)">
-              <label for="test1" >a3</label><br>
-            </div>
           </div>
         </form>
       </div>
