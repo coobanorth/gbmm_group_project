@@ -1,9 +1,15 @@
+            var div1 = document.getElementById("div1");
+            var div2 = document.getElementById("div2");
+            var div3 = document.getElementById("div3");
+            var div4 = document.getElementById("div4");
+            var div5 = document.getElementById("div5");
 
-div1.style.display = "none";
-div2.style.display = "none";
-div3.style.display = "none";
-div4.style.display = "none";
-div5.style.display = "none";
+            div1.style.display = "none";
+            div2.style.display = "none";
+            div3.style.display = "none";
+            div4.style.display = "none";
+            div5.style.display = "none";
+
 
 function toggleVisibility(divId) {
         var div = document.getElementById(divId);
