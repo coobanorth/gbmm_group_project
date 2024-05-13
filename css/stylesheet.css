@@ -489,3 +489,14 @@ dd{
 .buttonStyle:hover{
   background-color: #555;
 }
+<<<<<<< Updated upstream
+=======
+
+/*Example Buttons*/
+.example_button{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  width:80%;
+}
+>>>>>>> Stashed changes
